@@ -1,0 +1,24 @@
+---------------------------------------------------------------------
+---------------------------------------------------------------------
+		 TDA5150 RF HABERLEŞME PCB TASARIMI
+		BU DEVRE ALİHAN ŞEKER TASARLANMIŞTIR.
+	    300-320 MHz, 433-450 MHz, 863-870 MHz, 902-928 MHz
+---------------------------------------------------------------------
+---------------------------------------------------------------------
+
+Hakkında:
+---------
+
+TDA5150 Entegresi mikrodenetleyici temelli bir RF haberleşme entegresidir.
+Bu entegre ile mikrodenetleyici ve TDA5150 entegresi arasındaki haberleşme
+3-Wire SPI aracılığıyla sağlanmaktadır. Kanal seçimi, haberleşme şekli, modülasyon
+türü gibi konfigürasyonlar ve gönderilmek veya alınmak istenen veri bu kanallar 
+üzerinden yapılmaktadır. 
+
+Bu entegre ile 300-320 MHz, 433-450 MHz, 863-870 MHz, 902-928 MHz frekansları ile 
+PAOUT ve GNDPA pinleri arasına kurulan LC devresi, Kapasitör ve indüktans değerleri
+bu frekanslara göre göre seçilmelidir. 
+
+----------------------------
+Kullanılan Mikrodenetleyici:	PIC18F14K50
+----------------------------
